@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "source": {
+    "repository": "https://github.com/Depapepe/jev-shell-guard-lab",
+    "commit": "256b3cfb4241aabb365afb8216475e88794d5db3",
+    "runId": "alignment-20261011-v1",
+    "report": "https://github.com/Depapepe/jev-shell-guard-lab/blob/256b3cfb4241aabb365afb8216475e88794d5db3/docs/results/2026-10-11-alignment-study.md",
+    "archives": {
+      "records.jsonl.gz": {
+        "sha256": "1d9fedb2a00d1d6f1c8811d4e7eee8ccce54b2185849c9376692808280e56c68",
+        "url": "https://github.com/Depapepe/jev-shell-guard-lab/blob/256b3cfb4241aabb365afb8216475e88794d5db3/docs/results/alignment-artifacts/records.jsonl.gz"
+      },
+      "cases.jsonl.gz": {
+        "sha256": "1f82ba387f92e87842c5b03611ed33fa081d80e912ec6cd36530730c32726ce0",
+        "url": "https://github.com/Depapepe/jev-shell-guard-lab/blob/256b3cfb4241aabb365afb8216475e88794d5db3/docs/results/alignment-artifacts/cases.jsonl.gz"
+      },
+      "prompts.json.gz": {
+        "sha256": "2f2cc7cd62cac0dcd8fe7c59cac987b9720a0a6a709878f4346bda9116c6cf58",
+        "url": "https://github.com/Depapepe/jev-shell-guard-lab/blob/256b3cfb4241aabb365afb8216475e88794d5db3/docs/results/alignment-artifacts/prompts.json.gz"
+      },
+      "freeze.json.gz": {
+        "sha256": "74570b8ff4fa46bdd0995b3adc48c1e9337bd77ea0167a16513b88198f3d47c0",
+        "url": "https://github.com/Depapepe/jev-shell-guard-lab/blob/256b3cfb4241aabb365afb8216475e88794d5db3/docs/results/alignment-artifacts/freeze.json.gz"
+      }
+    },
+    "freezeHash": "f66938cfde4e9fecf1df318e07e4ceb0b9f660886b610b6d830eb4d93542b981",
+    "planHash": "75a85fd2f07cbb3614f841bf35af6b3e611d790ade3a6e7666f9ebed260146a2"
+  },
+  "extraction": {
+    "recordFilter": {
+      "phase": "main",
+      "arm": "B"
+    },
+    "records": 662,
+    "retainedOriginalRecordFields": true,
+    "exampleIds": [
+      "alignment-deny-npm-lifecycle-inspection",
+      "creative-deny-dot-source",
+      "creative-deny-sleep-background",
+      "alignment-deny-response-file-command-flags",
+      "adaptive-allow-printf-single-data",
+      "alignment-ask-response-file-command-flags"
+    ],
+    "commandsExecuted": false,
+    "model": "typesafe/jev-1.13-20260917",
+    "provider": "TypeSafe",
+    "threshold": 0.8,
+    "requestIntervalMs": 1000,
+    "concurrency": 2
+  },
+  "localFiles": {
+    "b-main.jsonl.gz": "9e7128ba696b0671b330e4371856cb1dfb425fa3342b97a30a897a1aeb8fd212",
+    "examples.json": "2e3dac5544fbc7281a0155b897f741f39b2c0cb08955cea3d537424d2eefd1f9",
+    "example-responses.json": "7c2eb5725b9d97ca5cacf9023fc8a1ae9089d1c90fecd1251ab86b38984b861a",
+    "questions.json": "f544bb121843342ab5d4e95574cb5da8a2dd9d0edf5e2fa82d626483852f3cfe",
+    "metrics.json": "c28e67c1539bb4193f48bcf1d09de0313fa515ab596fa84aba3b3ac7a4f97a2a"
+  }
+}

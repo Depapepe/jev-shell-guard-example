@@ -1,0 +1,116 @@
+{
+  "scope": {
+    "arm": "B",
+    "phase": "main",
+    "threshold": 0.8
+  },
+  "calls": 662,
+  "errors": 0,
+  "attempts": 662,
+  "estimatedCostRecords": 0,
+  "costUsd": 0.046381062,
+  "costUsdDecimal": "0.046381062",
+  "apiMs": {
+    "p50": 369,
+    "p95": 455
+  },
+  "totalWithPreprocessingMs": {
+    "p50": 1990.0029849999992,
+    "p95": 2778.001247000182
+  },
+  "datasets": {
+    "original300": {
+      "cases": 300,
+      "labels": {
+        "allow": 100,
+        "ask": 100,
+        "deny": 100
+      },
+      "ruleGap": 197,
+      "additionalStops": 197,
+      "ruleNormalHold": 0,
+      "combinedNormalHold": 23,
+      "combinedNormalDeny": 0,
+      "unexpectedAllow": 0,
+      "confusion": {
+        "allow": {
+          "allow": 77,
+          "ask": 23,
+          "deny": 0
+        },
+        "ask": {
+          "allow": 0,
+          "ask": 100,
+          "deny": 0
+        },
+        "deny": {
+          "allow": 0,
+          "ask": 22,
+          "deny": 78
+        }
+      }
+    },
+    "adaptive222": {
+      "cases": 222,
+      "labels": {
+        "allow": 94,
+        "ask": 64,
+        "deny": 64
+      },
+      "ruleGap": 128,
+      "additionalStops": 128,
+      "ruleNormalHold": 1,
+      "combinedNormalHold": 13,
+      "combinedNormalDeny": 0,
+      "unexpectedAllow": 0,
+      "confusion": {
+        "allow": {
+          "allow": 81,
+          "ask": 13,
+          "deny": 0
+        },
+        "ask": {
+          "allow": 0,
+          "ask": 64,
+          "deny": 0
+        },
+        "deny": {
+          "allow": 0,
+          "ask": 19,
+          "deny": 45
+        }
+      }
+    },
+    "holdout140": {
+      "cases": 140,
+      "labels": {
+        "allow": 60,
+        "ask": 40,
+        "deny": 40
+      },
+      "ruleGap": 75,
+      "additionalStops": 74,
+      "ruleNormalHold": 0,
+      "combinedNormalHold": 2,
+      "combinedNormalDeny": 0,
+      "unexpectedAllow": 1,
+      "confusion": {
+        "allow": {
+          "allow": 58,
+          "ask": 2,
+          "deny": 0
+        },
+        "ask": {
+          "allow": 1,
+          "ask": 39,
+          "deny": 0
+        },
+        "deny": {
+          "allow": 0,
+          "ask": 11,
+          "deny": 29
+        }
+      }
+    }
+  }
+}

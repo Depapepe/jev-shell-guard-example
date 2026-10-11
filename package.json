@@ -1,0 +1,32 @@
+{
+  "name": "jev-shell-guard-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.32.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "demo": "tsx src/cli.ts demo",
+    "examples": "tsx src/cli.ts examples",
+    "live": "node --env-file-if-exists=.env --import tsx src/cli.ts live",
+    "verify": "tsx scripts/verify-evidence.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm typecheck && pnpm test && pnpm format:check"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "1.4.21",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "prettier": "3.9.9",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  }
+}

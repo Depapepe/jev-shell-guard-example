@@ -1,0 +1,27 @@
+{
+  "labCommit": "256b3cfb4241aabb365afb8216475e88794d5db3",
+  "aiproCommit": "212fb6e31bf7ebbdcda84490862695552be1f88a",
+  "files": [
+    {
+      "path": "vendor/aipro/permission/safety-ruleset.ts",
+      "sha256": "552bd85885817f50ff4509a24938ac33b11fed33df5cfbbf1eaed2ed95d2c03c",
+      "origin": "unchanged AI PRO source"
+    },
+    {
+      "path": "vendor/aipro/permission/types.ts",
+      "sha256": "c2f23cc6aaec4803c1857bf2b44a09258b385f9b1907660f55ef295930be491f",
+      "origin": "lab type-only adapter"
+    },
+    {
+      "path": "vendor/aipro/util/shell-utils.ts",
+      "sha256": "2007a9b0ad98b076be2d959c805553769d1e87f6ef259b8e56ec537e073dd59d",
+      "origin": "lab type-only adapter"
+    },
+    {
+      "path": "vendor/aipro/agent/agents/prompt/tool-names.ts",
+      "sha256": "9323e176cd9dd3091fa71d354887ffb93d8b4034b6633e393f3b2da06faed061",
+      "origin": "unchanged AI PRO source"
+    }
+  ],
+  "questionsSha256": "648ae667ce1055d386531232b4b6544aad8931f3d764fba24b25bb8e2d5276ca"
+}

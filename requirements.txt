@@ -1,0 +1,2 @@
+# Optional Python introduction example; the TypeScript demo does not need this.
+typesafe-sdk
